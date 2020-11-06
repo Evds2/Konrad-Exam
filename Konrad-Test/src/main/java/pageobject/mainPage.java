@@ -143,8 +143,8 @@ public class mainPage extends basePage{
         insertName(name);
         insertEmail(email);
         insertPhone(phone);
+        driver.manage().timeouts().wait(10);
         clickOnDateCalendar();
-        driver.manage().timeouts().wait(3);
         clickOnSelectedDate();
         clickOnTimeDropDown();
         driver.manage().timeouts().wait(3);

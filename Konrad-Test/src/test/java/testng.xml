@@ -5,6 +5,7 @@
         <parameter name="email" value="prueba@konrad.com"></parameter>
         <parameter name="phone" value="123456789"></parameter>
         <parameter name="request" value="This is a QA Test"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="konradTest"></class>
         </classes>
