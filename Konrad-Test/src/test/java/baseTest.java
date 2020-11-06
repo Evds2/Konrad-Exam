@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class baseTest {
 
     public WebDriver driver;
-    public String baseURL = "https://demo.opencart.com/";
+    public String baseURL = "https://kgtravel438504128.wordpress.com/";
 
     //Metodo para preparar el browser
     @BeforeMethod(alwaysRun = true)
